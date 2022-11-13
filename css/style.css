@@ -1,18 +1,23 @@
 body {
     background-color: rgb(255, 255, 128);
-    padding: 0;
+    padding: 1%;
     margin: 0;
 }
+header {
+    background-image: url("../img/header-image.jpg");
+    padding: 1%;
+    margin: 0%;
+}
 .container {
-    display: flex;
+    /*display: flex;*/
 }
 nav a {
     text-decoration: none;
     border: solid 2px ;
     border-radius: 5px;
-    display: block;
+    display: inline;
     text-align: center;
-    margin-bottom: 5px;
+  
     padding: 10px 10px;
     color: maroon;
     font-weight: 700;
